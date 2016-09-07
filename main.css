@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-size: 14;
+  color: #528e62;
+}
+.type_px{
+    
+}
+.type_em{
+    
+}
+.type_rem{
+    
+}
+/* большой экран */
+@media screen and (min-width: 1024px) and (max-width: 1240px) {
+    .colortxt{color: #109a35;}
+    .type_px h2{font-size: 35px;}
+    .type_px p{font-size: 18px;}
+}
+
+/* средний экран */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .colortxt{color: #cd0d00;}
+    .type_px h2{font-size: 24px;}
+    .type_px p{font-size: 16px;}
+     body{font-size: 16px;}
+     html{font-size: 16px;}
+}
+/* маленький экран */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .colortxt{color:#bbb;}
+    .type_px h2{font-size: 22px;}
+    .type_px p{font-size: 18px;}
+    .type_em h2{font-size: 1.4em;}
+    .type_em p{font-size: 1.2em;}
+    .type_rem h2{font-size: 1.4rem;}
+    .type_rem p{font-size: 1.2rem;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
