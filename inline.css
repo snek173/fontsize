@@ -1,0 +1,165 @@
+*, 
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.col{
+    min-height: 100px;
+    height: auto;
+    content: ' ';
+    vertical-align: top;
+    float: left;
+    padding: 0 0.55556rem 1.11111rem;
+}
+
+.img{
+    border: solid 4px #FFFFFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    line-height: 0;
+    width: 100%;
+    transition: all 200ms ease-out;
+    vertical-align: middle;
+}
+.img:hover{
+        box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+
+[class*="large-row"]{
+    margin: 0 10px;
+}
+
+.large-row-*:last-child {
+  margin-bottom: 0;
+}
+
+.large-row-1 div.col{
+     width: 100%;
+}
+.large-row-2 div.col{
+     width: 50%;
+}
+.large-row-3 div.col{
+     width: 33.33%;
+}
+.large-row-4 div.col{
+     width: 25%;
+}
+.large-row-5 div.col{
+     width: 20;
+}
+.large-row-6 div.col{
+     width: 16.66%;
+}
+.large-row-7 div.col{
+     width: 25%;
+}
+.large-row-8 div.col{
+     width: 14.28%;
+}
+.large-row-9 div.col{
+     width: 11.11%;
+}
+.large-row-10 div.col{
+     width: 10%;
+}
+.large-row-11 div.col{
+     width: 9.09%;
+}
+.large-row-12 div.col{
+     width: 8.33%;
+}
+
+
+@media screen and ( max-width: 1023px ) {
+.medium-row-1 div.col{
+     width: 100%;
+}
+.medium-row-2 div.col{
+     width: 50%;
+}
+.medium-row-3 div.col{
+     width: 33.33%;
+}
+.medium-row-4 div.col{
+     width: 25%;
+}
+.medium-row-5 div.col{
+     width: 20;
+}
+.medium-row-6 div.col{
+     width: 16.66%;
+}
+.medium-row-7 div.col{
+     width: 25%;
+}
+.medium-row-8 div.col{
+     width: 14.28%;
+}
+.medium-row-9 div.col{
+     width: 11.11%;
+}
+.medium-row-10 div.col{
+     width: 10%;
+}
+.medium-row-11 div.col{
+     width: 9.09%;
+}
+.medium-row-12 div.col{
+     width: 8.33%;
+}
+}
+
+
+@media screen and ( max-width: 767px ) {
+.small-row-1 div.col{
+     width: 100%;
+}
+.small-row-2 div.col{
+     width: 50%;
+}
+.small-row-3 div.col{
+     width: 33.33%;
+}
+.small-row-4 div.col{
+     width: 25%;
+}
+.small-row-5 div.col{
+     width: 20;
+}
+.small-row-6 div.col{
+     width: 16.66%;
+}
+.small-row-7 div.col{
+     width: 25%;
+}
+.small-row-8 div.col{
+     width: 14.28%;
+}
+.small-row-9 div.col{
+     width: 11.11%;
+}
+.small-row-10 div.col{
+     width: 10%;
+}
+.small-row-11 div.col{
+     width: 9.09%;
+}
+.small-row-12 div.col{
+     width: 8.33%;
+}
+}
